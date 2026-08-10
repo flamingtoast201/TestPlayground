@@ -1,0 +1,51 @@
+# ---------------------------------------
+# UE5 Project .gitignore
+# ---------------------------------------
+
+# Build folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# VS + Rider + Code IDE
+.vscode/
+*.vs/
+.idea/
+*.sln
+*.VC.db
+*.VC.opendb
+
+# macOS / Windows system junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled shaders
+DerivedDataCache/
+*.hlslcc
+*.metalmap
+*.ush
+*.usf
+
+# Project user config files
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+
+# Unreal autosaves & crash reports
+Autosaves/
+Backup/
+CrashReports/
+
+# Unreal Generated Files
+Script/
+Documentation/
+
+# Log files
+*.log
+*.tlog
+.vsconfig
