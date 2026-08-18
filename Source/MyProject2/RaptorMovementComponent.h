@@ -50,6 +50,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Raptor Flight")
 	void SetFlightActive(bool bActive);
 	UFUNCTION(BlueprintPure, Category = "Raptor Flight")
+	bool GetIsFlightActive() const { return bIsFlightActive; }
+	UFUNCTION(BlueprintPure, Category = "Raptor Flight")
 	float GetCurrentSpeed() const { return CurrentSpeed; }
 	UFUNCTION(BlueprintPure, Category = "Raptor Flight")
 	FVector GetVelocity() const { return Velocity; }
