@@ -49,6 +49,10 @@ public:
 	void CompleteLanding();
 	UFUNCTION(BlueprintCallable, Category = "Raptor Flight")
 	void SetFlightActive(bool bActive);
+	UFUNCTION(BlueprintPure, Category = "Raptor Flight")
+	float GetCurrentSpeed() const { return CurrentSpeed; }
+	UFUNCTION(BlueprintPure, Category = "Raptor Flight")
+	FVector GetVelocity() const { return Velocity; }
 	UPROPERTY(BlueprintAssignable, Category = "Raptor")
 	FOnRaptorLandingRequested OnLandingRequested;
 	UPROPERTY(BlueprintAssignable, Category = "Raptor")
