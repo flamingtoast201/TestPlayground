@@ -25,7 +25,7 @@ UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 //===========================================================================================
 // Declare Class URaptor Movement Component
 //===========================================================================================
-class MYPROJECT2_API URaptorMovementComponent : public UActorComponent {
+class BLACKSMITHGAME_API URaptorMovementComponent : public UActorComponent {
 	GENERATED_BODY()
 	//=======================================================================================
 	// Declare Public Functions
