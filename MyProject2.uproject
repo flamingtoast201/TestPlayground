@@ -27,5 +27,8 @@
 			],
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2"
 		}
+	],
+	"AdditionalPluginDirectories": [
+		"../../../../Downloads/AdvancedSkeleton (1)/AdvancedSkeletonFiles/div/unrealPlugins/UE_5.7/AdvancedSkeletonUnreal"
 	]
 }
